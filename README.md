@@ -1,4 +1,4 @@
-Le projet présent projet est un projet de CRUD si,ple effectué pour le test d'embauche à l'UEA:
+Le projet présent projet est un projet de CRUD simple
 Auteur: MWIKIZA CISIRIKA Alain
 Fonctionnalités effectuées: Simple RESTFull pour le CRUD
 Technologie: Spring Boot (Java)
@@ -37,4 +37,4 @@ Liste de cours sans etudiants :
     SELECT C.cours_id, C.nom FROM cours AS C LEFT JOIN cours_etudiants AS CE ON C.cours_id = CE.cours_id  WHERE CE.cours_id IS NULL;
 
 > Note:
-> Nous n'avons pas atteints tous les requirements de l'evations faute du temps et ne pas pushé un code avec des bugs vu le temps qui file.
+> Nous n'avons pas atteints tous les requirements faute du temps et ne pas pushé un code avec des bugs vu le temps qui file.
